@@ -1,0 +1,17 @@
+cli是什么？
+自动化构建工具(包括webpack等)
+
+执行ng serve的过程？
+Angular CLI 从 .angular-cli.json 文件中加载配置信息
+Angular CLI 运行 Webpack 打包相关 JavaScript 和 CSS 文件
+Angular CLI 启动 webpack dev server 本地开发服务器，
+默认的地址是 localhost:4200
+
+命令：
+创建新项目 
+ng new 文件名
+cd直至文件项目
+ng serve --open（启动项目）
+
+使用 Angular CLI 创建一个名为xxx的新组件。
+ng generate component xxx
